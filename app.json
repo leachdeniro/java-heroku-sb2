@@ -1,0 +1,22 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ],
+  "description": "App de prueba en java con SpringBoot",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "java-heroku-sb",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
